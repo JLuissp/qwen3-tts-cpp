@@ -1,0 +1,32 @@
+# Python virtual env
+venv/
+
+# CMake / build outputs
+build/
+build*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Generated binaries/libraries
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Local runtime artifacts
+artifacts/
+*.wav
+*.log
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
